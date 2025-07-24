@@ -1,0 +1,45 @@
+/* styles-produtos.css */
+
+/* Estilo para o elemento raiz */
+
+.root {
+	-fx-background-color: dimgrey; /* Define a cor de fundo como azul dodger */
+}
+
+/* Estilo para os rotulos */
+.label {
+	-fx-font-size: 14px; /* Define o tamanho da fonte para 14pixels */
+	-fx-text-fill: black; /* Cor do texto para preto */
+	-fx-font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Estilo para os campos de texto */
+.text-fild{
+	-fx-background-color: white; /* Define a cor de fundo como branco */
+	-fx-border-color: lightgray; /* Define a cor da borda como cinza claro */
+}
+
+/* Estilo para botões */
+.button{
+	-fx-background-color: linear-gradient(to bottom, black, dimgrey); /* Define um gradiente de preto para o dim grey */
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+	-fx-cursor: hand; /*  Define o cursor como uma mão */ 
+}
+
+/* Estilo para botões ao passar o mouse */
+.button:hover{
+	-fx-background-color: linear-gradient(to bottom, lightskyblue, deepskyblue); /* Define de azulclaro para escuro */
+}
+
+/*Estilo para a visualização de tabelas */
+.table-view{
+	-fx-background-color: white;
+	-fx-border-color: lightgray;
+}
+
+/* Estilo para as celulas da tabela */
+.table-cell{
+	-fx-padding: 10px; /* Preenchimento interno como 10 pixels */
+	-fx-border-color: lightgray;
+}
